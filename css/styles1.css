@@ -1,0 +1,80 @@
+
+body {
+   	
+	text-align:center;
+	background-color:powderblue;
+}
+h1 {
+	color: blue;
+	font-size:60px; 
+}
+.MainImage{
+ 		position: relative;
+         margin: auto;
+         /* border: 5px dashed #f7a239;  */
+
+}
+ 
+  
+.logo1 {
+  position: absolute;
+  top: 2%;  /*this is position*/
+  left: 35%;
+  width: 25%; /*this is size*/
+  height: 20%;
+
+
+  border-radius: 50%;
+  border: 1px solid #000000;
+  z-index: 2;
+  object-fit: fit;
+ 
+ 
+}
+.logo2 {
+   
+  width: 75%;
+  height: 75%;
+
+  top: 0px;
+  left: 0px;
+   
+  border: 1px solid #000000;
+  z-index: 1;
+    
+  object-fit: fit;    
+ 
+} 
+@font-face {
+  font-family: myFirstFont;
+  src: url(Arvo-BoldItalic.ttf);
+  font-weight: bold;
+  
+}
+
+#slogan{
+  font-family: myFirstFont;
+  font-size: 30px;  
+  text-transform: capitalize;
+}
+
+#pnumber{
+ font-family:"Open Sans",sans-serif;
+ max-width:500px;
+ font-size:20px;
+ margin:auto;
+ font-weight:700;
+ font-style:italic;
+ letter-spacing:.5px;
+ padding-bottom:30px
+}
+  
+#myCanvas{
+  border: 1px solid black;
+}
+.Bottom{
+	background-color:#F5F5F5;
+	text-align:center;
+}
+footer{
+	background-color:#F5F5F5;
